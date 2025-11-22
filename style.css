@@ -1,3 +1,8 @@
+  body{
+  background-color:;  
+  color: ;
+  
+}
 /* NAVBAR STYLING */
 nav {
   position: fixed ;
@@ -42,7 +47,8 @@ p {
   font-size : 30px;
   padding-left: 15px ;
 }
-/* top wallpaper styling*/
+/* to
+p wallpaper styling*/
 .content { 
   padding-top: 40px;
 }
@@ -51,7 +57,49 @@ p {
   width : 250px;
   border: 2px solid black;
   text-align: center ;
+  background-image: url(Images/Onepiece.jpg);
+  background-size: cover;
 } 
+.top2 {
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(Images/Samurai.jpg);
+background-size: cover;
+}
+.top3 {
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(Images/Seasonal.jpg);
+background-size: cover;
+}
+.top4 {
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(Images/Demonslayer.jpg);
+background-size: cover;
+}
+.top5 {
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(Images/Minecraft.jpg);
+background-size: cover;
+}
+.top6 {
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(Images/Painting.jpg);
+background-size: cover;
+}
 .container1 {
   display: flex;
   flex-direction: row;
@@ -75,6 +123,8 @@ p {
   height: 150px ;
   width: 130px;
   border: 2px solid black ;
+  background-image: url(Images/Onepiece.jpg);
+  background-size: cover;
 }
 .anime a {
   padding-top:30px;
@@ -99,6 +149,8 @@ h2 {
   width: 130px;
   border: 2px solid black ;
   margin-right: 10px;
+  background-image: url(Images/Demonslayer.jpg);
+background-size: cover;
 }
 .anime {
   display: flex;
@@ -118,6 +170,8 @@ h2 {
   width: 130px;
   border: 2px solid black ;
   margin-right: 10px;
+  background-image: url(Images/Sololeveling.jpg);
+background-size: cover;
 }
 /* NATURE SECTION STYLE */
 .Senaries {
@@ -131,6 +185,8 @@ h2 {
   height: 150px ;
   width: 130px;
   border: 2px solid black ;
+  background-image: url(Images/Senaries.jpg);
+background-size: cover;
 }
 .Nature a {
   padding-top:30px;
@@ -152,6 +208,8 @@ h2 {
   width: 130px;
   border: 2px solid black ;
   margin-right: 10px;
+  background-image: url(Images/Phenomenal.jpg);
+background-size: cover;
 }
 .Nature {
   display: flex;
@@ -172,6 +230,8 @@ h2 {
   width: 130px;
   border: 2px solid black ;
   margin-right: 10px;
+  background-image: url(Images/Seasonal.jpg);
+background-size: cover;
 }
 /* GAMING SECTION STYLE */
 .samurai {
@@ -185,6 +245,8 @@ h2 {
   height: 150px ;
   width: 130px;
   border: 2px solid black ;
+  background-image: url(Images/Samurai.jpg);
+background-size: cover;
 }
 .GAMING a {
   padding-top:30px;
@@ -206,6 +268,8 @@ h2 {
   width: 130px;
   border: 2px solid black ;
   margin-right: 10px;
+  background-image: url(Images/Games.jpg);
+background-size: cover;
 }
 .GAMING {
   display: flex;
@@ -225,6 +289,8 @@ h2 {
   width: 130px;
   border: 2px solid black ;
   margin-right: 10px;
+  background-image: url(Images/Minecraft.jpg);
+background-size: cover;
 }
 /* ABSTRACT SECTION STYLE */
 .Objects {
@@ -239,6 +305,8 @@ h2 {
   height: 150px ;
   width: 130px;
   border: 2px solid black ;
+  background-image: url(Images/Objects.jpg);
+background-size: cover;
 }
 .Abstract a {
   padding-top:30px;
@@ -260,6 +328,8 @@ h2 {
   width: 130px;
   border: 2px solid black ;
   margin-right: 10px;
+  background-image: url(Images/Painting.jpg);
+background-size: cover;
 }
 .Abstract {
   display: flex;
@@ -280,6 +350,8 @@ h2 {
   width: 130px;
   border: 2px solid black ;
   margin-right: 10px;
+  background-image: url(Images/Arts.jpg);
+background-size: cover;
 }
 .themetypes2 {
   display: flex;
@@ -608,6 +680,7 @@ background-size: cover;
   height: 150px;
   width: 300px;
   margin-left: 20px;
+  margin-right: 250px;
 } 
 .contact {
   list-style: none;
@@ -629,6 +702,12 @@ background-size: cover;
   padding-left: 10px;
   color: black;
 }
+.fa-envelope a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: black;
+  font-size: 15px;
+}
 .priavcy {
   text-decoration: none;
   text-align: center;
@@ -636,16 +715,9 @@ background-size: cover;
   padding-top: 30px;
 }
 .footer2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  text-align: center ;
 }
 .footer1 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between ;
-}
-.support {
-  padding-right: 70px;
-  padding-top: 30px;
 }
