@@ -1,0 +1,746 @@
+body{
+  background-color: #0f0c29 ;  
+  color: ;
+  
+}
+/* NAVBAR STYLING */
+nav {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  padding-top:50px;
+  background-color: #3C467B ;
+  text-decoration: none;
+  cursor: pointer;
+}
+.toggle {
+  list-style-type: none;
+  padding: 0;   
+  margin: 0;
+  display: flex;
+  gap: 1.3rem;
+  font-size: 26px;
+  text-align: center;
+}
+.toggle li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black ;
+  transition: all 0.7s ease;
+  border-radius: 5px;
+}
+ nav .toggle li  :hover {
+  background-color: #0f0c29;
+  color: white;
+  border: 2px solid black ;
+}
+.logo a {
+  font-size: 40px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer ;
+  margin-right: 270px;
+}
+/* HERO SECTION STYLING */
+.hero {
+  padding-top: 1px;
+  padding-bottom: 200px;
+  color: white;
+}
+video{
+  object-fit: cover;
+  z-index: -1;
+  position: absolute;
+}
+.videoplay {
+  top: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 47px;
+  padding-left: 40px;
+  padding-top: 50px;
+}
+p {
+  font-size : 30px;
+  padding-left: 15px ;
+}
+/* top wallpaper styling*/
+.content { 
+  padding-top: 40px;
+}
+.top1 { 
+  height: 300px;
+  width : 250px;
+  border: 2px solid black;
+  text-align: center ;
+  background-image: url(Images/Onepiece.jpg);
+  background-size: cover;
+} 
+.top2 {
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(Images/Samurai.jpg);
+background-size: cover;
+}
+.top3 {
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(Images/Seasonal.jpg);
+background-size: cover;
+}
+.top4 {
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(Images/Demonslayer.jpg);
+background-size: cover;
+}
+.top5 {
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(Images/Minecraft.jpg);
+background-size: cover;
+}
+.top6 {
+  height: 300px;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(Images/Painting.jpg);
+background-size: cover;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  Justify-content: space-evenly;
+}
+/* Wallpapers type styling*/
+.themetypes1 {
+  display: flex;
+  Justify-content: space-between;
+  color: white;
+}
+/* ANIME SECTION STYLING */
+.Onepiece {
+  display:flex;
+  flex-direction: row;
+  padding-right: 10px;
+  Justify-content: space-evenly ;
+  width: 300px;
+}
+.img1  {
+  height: 150px ;
+  width: 130px;
+  border: 2px solid black ;
+  background-image: url(Images/Onepiece.jpg);
+  background-size: cover;
+}
+.anime a {
+  padding-top:30px;
+  padding-bottom:30px;
+  text-decoration: none ;
+  color: white;
+  font-size: 23px ;
+}
+h2 {
+  padding-left:25px;
+}
+.demonslayer {
+  padding-top: 23px;
+  display: flex;
+  flex-direction: row;
+  Justify-content: space-evenly;
+  width: 300px;
+  margin-left: 10px;
+}
+.img2  {
+  height: 150px ;
+  width: 130px;
+  border: 2px solid black ;
+  margin-right: 10px;
+  background-image: url(Images/Demonslayer.jpg);
+background-size: cover;
+}
+.anime {
+  display: flex;
+  flex-direction: column;
+}
+.Sololeveling {
+  padding-top: 23px;
+  display:flex;
+  flex-direction: row;
+  padding-right: 10px;
+  Justify-content:space-evenly ;
+  width: 300px;
+  margin-left: 10px;
+}
+.img3  {
+  height: 150px ;
+  width: 130px;
+  border: 2px solid black ;
+  margin-right: 10px;
+  background-image: url(Images/Sololeveling.jpg);
+background-size: cover;
+}
+/* NATURE SECTION STYLE */
+.Senaries {
+  display:flex;
+  flex-direction: row;
+  padding-right: 10px;
+  Justify-content: space-evenly ;
+  width: 300px;
+}
+.img4 {
+  height: 150px ;
+  width: 130px;
+  border: 2px solid black ;
+  background-image: url(Images/Senaries.jpg);
+background-size: cover;
+}
+.Nature a {
+  padding-top:30px;
+  padding-bottom:30px;
+  text-decoration: none ;
+  color: white;
+  font-size: 23px ;
+}
+.Phenomenal {
+  padding-top: 23px;
+  display: flex;
+  flex-direction: row;
+  Justify-content: space-evenly;
+  width: 300px;
+  margin-left: 10px;
+}
+.img5  {
+  height: 150px ;
+  width: 130px;
+  border: 2px solid black ;
+  margin-right: 10px;
+  background-image: url(Images/Phenomenal.jpg);
+background-size: cover;
+}
+.Nature {
+  display: flex;
+  flex-direction: column;
+  margin-left: 275px;
+}
+.Seasonal {
+  padding-top: 23px;
+  display:flex;
+  flex-direction: row;
+  padding-right: 10px;
+  Justify-content:space-evenly ;
+  width: 300px;
+  margin-left: 10px;
+}
+.img6  {
+  height: 150px ;
+  width: 130px;
+  border: 2px solid black ;
+  margin-right: 10px;
+  background-image: url(Images/Seasonal.jpg);
+background-size: cover;
+}
+/* GAMING SECTION STYLE */
+.samurai {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  Justify-content: space-evenly ;
+  width: 300px;
+}
+.img7 {
+  height: 150px ;
+  width: 130px;
+  border: 2px solid black ;
+  background-image: url(Images/Samurai.jpg);
+background-size: cover;
+}
+.GAMING a {
+  padding-top:30px;
+  padding-bottom:30px;
+  text-decoration: none ;
+  color: white;
+  font-size: 23px ;
+}
+.Games {
+  padding-top: 23px;
+  display: flex;
+  flex-direction: row;
+  Justify-content: space-evenly;
+  width: 300px;
+  margin-left: 10px;
+}
+.img8  {
+  height: 150px ;
+  width: 130px;
+  border: 2px solid black ;
+  margin-right: 10px;
+  background-image: url(Images/Games.jpg);
+background-size: cover;
+}
+.GAMING {
+  display: flex;
+  flex-direction: column;
+}
+.Minecraft {
+  padding-top: 23px;
+  display:flex;
+  flex-direction: row;
+  padding-right: 10px;
+  Justify-content:space-evenly ;
+  width: 300px;
+  margin-left: 10px;
+}
+.img9  {
+  height: 150px ;
+  width: 130px;
+  border: 2px solid black ;
+  margin-right: 10px;
+  background-image: url(Images/Minecraft.jpg);
+background-size: cover;
+}
+/* ABSTRACT SECTION STYLE */
+.Objects {
+  display:flex;
+  flex-direction: row;
+  padding-right: 10px;
+  Justify-content: space-evenly ;
+  width: 300px;
+  margin-left: 10px ;
+}
+.img10 {
+  height: 150px ;
+  width: 130px;
+  border: 2px solid black ;
+  background-image: url(Images/Objects.jpg);
+background-size: cover;
+}
+.Abstract a {
+  padding-top:30px;
+  padding-bottom:30px;
+  text-decoration: none ;
+  color: white ;
+  font-size: 23px ;
+}
+.Paintings {
+  padding-top: 23px;
+  display: flex;
+  flex-direction: row;
+  Justify-content: space-evenly;
+  width: 300px;
+  margin-left: 10px;
+}
+.img11 {
+  height: 150px ;
+  width: 130px;
+  border: 2px solid black ;
+  margin-right: 10px;
+  background-image: url(Images/Painting.jpg);
+background-size: cover;
+}
+.Abstract {
+  display: flex;
+  flex-direction: column;
+  margin-left: 275px;
+}
+.Art {
+  padding-top: 23px;
+  display:flex;
+  flex-direction: row;
+  padding-right: 10px;
+  Justify-content:space-evenly ;
+  width: 300px;
+  margin-left: 10px;
+}
+.img12 {
+  height: 150px ;
+  width: 130px;
+  border: 2px solid black ;
+  margin-right: 10px;
+  background-image: url(Images/Arts.jpg);
+background-size: cover;
+}
+.themetypes2 {
+  display: flex;
+  Justify-content: space-between;
+  flex-direction: row ;
+  margin-top: 20px ;
+}
+/* top wallpapers style */
+.topwalls {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.topwallhead {
+  text-align: center;
+}
+/*TOPWALLLS1 STYLE */
+.topwall1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly ;
+  margin-bottom: 20px; 
+}
+.Luffy {
+  display: flex;
+  flex-direction: column;
+}
+.Luffy a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+.luffyimg {
+  border: 2px solid black;
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+  background-image: url("/Images/Luffy.jpg");
+  background-size: cover;
+}
+.luffyname {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.zoro {
+  display: flex;
+  flex-direction: column;
+}
+.zoro a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+ 
+}
+.zoroimg {
+  border: 2px solid black;
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+  background-image: url("/Images/zoro.jpg");
+  background-size: cover;
+}
+.zoroname {
+  text-align: center;
+}
+
+.Animegirl {
+  display: flex;
+  flex-direction: column;
+}
+.Animegirl a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+ 
+}
+.Animegirlimg {
+  border: 2px solid black;
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+  background-image: url("/Images/Animegirl.jpg");
+background-size: cover;
+}
+
+.animegirlname {
+   text-align: center;
+ }
+ /*TOPWALLS2 STYLE */
+.topwall2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 15px;
+}
+.Lightingtop {
+  display: flex;
+  flex-direction: column;
+  
+}
+.Lightingtop a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+.Lightingimg {
+  border: 2px solid black;
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+  background-image: url("/Images/Lighting.jpg");
+ background-size: cover;
+}
+.lightingname {
+  text-align: center;
+}
+
+.Abstracttop {
+  display: flex;
+  flex-direction: column;
+}
+.Abstracttop a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+ 
+}
+.Abstractimg {
+  border: 2px solid black;
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+  background-image: url("/Images/Abstract.jpg");
+ background-size: cover;
+}
+
+.Abstractname {
+  text-align: center;
+}
+
+.Autumtop {
+  display: flex;
+  flex-direction: column;
+}
+.Autumtop a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+ 
+}
+.Autumimg {
+  border: 2px solid black;
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+  background-image: url("/Images/Autum.jpg");
+background-size: cover;
+}
+
+.Autumname {
+  text-align: center;
+}
+/* TOPWALLS3 STYLE */
+.topwall3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.zenitsutop {
+  display: flex;
+  flex-direction: column;
+  
+}
+.zenitsutop a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+.zenitsuimg {
+  border: 2px solid black;
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+  background-image: url("/Images/Zenitsu.jpg");
+background-size: cover;
+}
+
+.zenitsuname {
+  text-align: center;
+}
+
+.makimatop {
+  display: flex;
+  flex-direction: column;
+}
+.makimatop a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+ 
+}
+.makimaimg {
+  border: 2px solid black;
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+  background-image: url("/Images/Makima.jpg");
+background-size: cover;
+}
+
+.makimaname {
+  text-align: center;
+}
+
+.milkywaytop {
+  display: flex;
+  flex-direction: column;
+}
+.milkywaytop a {
+  text-decoration: none;
+  color: white ;
+  font-size: 23px;
+ 
+}
+.milkywayimg {
+  border: 2px solid black;
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+  background-image: url("/Images/milkyway.jpg");
+background-size: cover;
+}
+
+.milkywayname {
+  text-align: center;
+}
+
+.topwall4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.flowertop {
+  display: flex;
+  flex-direction: column;
+}
+.flowertop a {
+  text-decoration: none;
+  color: white ;
+  font-size: 23px;
+}
+.flowerimg {
+  border: 2px solid black;
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+  background-image: url("/Images/Flowers.jpg");
+background-size: cover;
+}
+
+.flowername {
+  text-align: center;
+}
+
+.ironmantop {
+  display: flex;
+  flex-direction: column;
+}
+.ironmantop a {
+  text-decoration: none;
+  color: white ;
+  font-size: 23px;
+ 
+}
+.ironmanimg {
+  border: 2px solid black;
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+  background-image: url("/Images/Ironman.jpg");
+background-size: cover;
+}
+
+.ironmanname {
+  text-align: center;
+}
+
+.thortop {
+  display: flex;
+  flex-direction: column;
+}
+.thortop a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+ 
+}
+.thorimg {
+  border: 2px solid black;
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+  background-image: url("/Images/Thor.jpg");
+background-size: cover;
+}
+
+.thorname {
+  text-align: center;
+}
+/*Footer style */
+
+.footer {
+    background-image:url('Images/Footer b.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 970px;
+    background-color: #31326F;
+}
+.footerlogo h1 {
+  margin: 0;
+  font-size: 23px;
+  font-weight: 900;
+  margin-left: 20px;
+  margin-right: 330px;
+} 
+.footerlogo p {
+  font-size: 19px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.contact {
+  list-style: none;
+  font-size: 26px;
+} 
+.fa-instagram a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: black; 
+  padding-bottom: 20px;
+}
+.fa-github a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: black;
+}
+.fa-linkedin a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: black;
+}
+.fa-envelope a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: black;
+  font-size: 15px;
+}
+.priavcy {
+  text-decoration: none;
+  text-align: center;
+  padding-right: 200px;
+  padding-top: 30px;
+}
+.footer2 {
+  text-align: center ;
+}
+.footer1 {
+  display: flex;
+  flex-direction: row;
+}
