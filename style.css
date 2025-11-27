@@ -1,15 +1,15 @@
-body{
-  background-color: #0f0c29 ;  
+  body{
+  background-color:;  
   color: ;
   
 }
 /* NAVBAR STYLING */
 nav {
-  position: sticky;
+  position: fixed ;
   display: flex;
   align-items: center;
   padding-top:50px;
-  background-color: #3C467B ;
+  background-color: #E0D9D9;
   text-decoration: none;
   cursor: pointer;
 }
@@ -26,13 +26,6 @@ nav {
   text-decoration: none;
   cursor: pointer;
   color: black ;
-  transition: all 0.7s ease;
-  border-radius: 5px;
-}
- nav .toggle li  :hover {
-  background-color: #0f0c29;
-  color: white;
-  border: 2px solid black ;
 }
 .logo a {
   font-size: 40px;
@@ -43,30 +36,19 @@ nav {
 }
 /* HERO SECTION STYLING */
 .hero {
-  padding-top: 1px;
+  padding-top: 200px;
   padding-bottom: 200px;
-  color: white;
 }
-video{
-  object-fit: cover;
-  z-index: -1;
-  position: absolute;
-}
-.videoplay {
-  top: 0;
-  margin: 0;
-}
-
 h1 {
   font-size: 47px;
   padding-left: 40px;
-  padding-top: 50px;
 }
 p {
   font-size : 30px;
   padding-left: 15px ;
 }
-/* top wallpaper styling*/
+/* to
+p wallpaper styling*/
 .content { 
   padding-top: 40px;
 }
@@ -127,7 +109,7 @@ background-size: cover;
 .themetypes1 {
   display: flex;
   Justify-content: space-between;
-  color: white;
+  
 }
 /* ANIME SECTION STYLING */
 .Onepiece {
@@ -148,7 +130,7 @@ background-size: cover;
   padding-top:30px;
   padding-bottom:30px;
   text-decoration: none ;
-  color: white;
+  color: black;
   font-size: 23px ;
 }
 h2 {
@@ -210,7 +192,7 @@ background-size: cover;
   padding-top:30px;
   padding-bottom:30px;
   text-decoration: none ;
-  color: white;
+  color: black;
   font-size: 23px ;
 }
 .Phenomenal {
@@ -270,7 +252,7 @@ background-size: cover;
   padding-top:30px;
   padding-bottom:30px;
   text-decoration: none ;
-  color: white;
+  color: black;
   font-size: 23px ;
 }
 .Games {
@@ -330,7 +312,7 @@ background-size: cover;
   padding-top:30px;
   padding-bottom:30px;
   text-decoration: none ;
-  color: white ;
+  color: black;
   font-size: 23px ;
 }
 .Paintings {
@@ -381,7 +363,7 @@ background-size: cover;
 .topwalls {
   display: flex;
   flex-direction: column;
-  color: white;
+  
 }
 .topwallhead {
   text-align: center;
@@ -399,7 +381,7 @@ background-size: cover;
 }
 .Luffy a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 23px;
 }
 .luffyimg {
@@ -421,7 +403,7 @@ background-size: cover;
 }
 .zoro a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 23px;
  
 }
@@ -443,7 +425,7 @@ background-size: cover;
 }
 .Animegirl a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 23px;
  
 }
@@ -473,7 +455,7 @@ background-size: cover;
 }
 .Lightingtop a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 23px;
 }
 .Lightingimg {
@@ -494,7 +476,7 @@ background-size: cover;
 }
 .Abstracttop a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 23px;
  
 }
@@ -517,7 +499,7 @@ background-size: cover;
 }
 .Autumtop a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 23px;
  
 }
@@ -548,7 +530,7 @@ background-size: cover;
 }
 .zenitsutop a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 23px;
 }
 .zenitsuimg {
@@ -570,7 +552,7 @@ background-size: cover;
 }
 .makimatop a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 23px;
  
 }
@@ -593,7 +575,7 @@ background-size: cover;
 }
 .milkywaytop a {
   text-decoration: none;
-  color: white ;
+  color: black;
   font-size: 23px;
  
 }
@@ -623,7 +605,7 @@ background-size: cover;
 }
 .flowertop a {
   text-decoration: none;
-  color: white ;
+  color: black;
   font-size: 23px;
 }
 .flowerimg {
@@ -645,7 +627,7 @@ background-size: cover;
 }
 .ironmantop a {
   text-decoration: none;
-  color: white ;
+  color: black;
   font-size: 23px;
  
 }
@@ -668,7 +650,7 @@ background-size: cover;
 }
 .thortop a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 23px;
  
 }
@@ -687,24 +669,19 @@ background-size: cover;
 /*Footer style */
 
 .footer {
-    background-image:url('Images/Footer b.jpg');
+    background-image:url('Images/Footer bg.jpg');
     background-size: cover;
     height: 300px;
     width: 970px;
-    background-color: #31326F;
 }
-.footerlogo h1 {
-  margin: 0;
-  font-size: 23px;
-  font-weight: 900;
+.footerlogo {
+  background-image:url('Images/Footerlogo.jpg');
+  background-size: contain;
+  height: 150px;
+  width: 300px;
   margin-left: 20px;
-  margin-right: 330px;
+  margin-right: 250px;
 } 
-.footerlogo p {
-  font-size: 19px;
-  margin-top: 10px;
-  margin-left: 50px;
-}
 .contact {
   list-style: none;
   font-size: 26px;
